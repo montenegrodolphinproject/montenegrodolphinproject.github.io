@@ -1,0 +1,24 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Cetaceans Balkan Conf"
+# Site language. Available translations in the theme's `/i18n` directory.
+defaultContentLanguage = "en"
+
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "cb-conf"
+[params]
+  jumbotroImage="img/img-jumbotron-bg.jpg"
+  latitude = "-12.043333"
+  longitude = "-77.028333"
+
+[params.partners]
+    enable = true
+    # All testimonipartnersals are defined in their own files. You can find example items
+    # at 'exampleSite/data/partners'.
+    # For more informtion take a look at the README.
+    title = "Partners"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+[params.speakers]
+  enable = true
+  title= "Speakers"

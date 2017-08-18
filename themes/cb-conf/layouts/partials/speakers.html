@@ -1,0 +1,40 @@
+{{ if isset .Site.Params "speakers" }}
+{{ if .Site.Params.speakers.enable }}
+{{ if gt (len .Site.Data.speakers) 0 }}
+<section id="section-speaker" class="section-wrapper team gray-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h1>{{ .Site.Params.speakers.title}}</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {{ range .Site.Data.speakers }}
+            <div class="col-sm-6 col-md-3">
+                <figure class="thumbnail">
+                    <a href="#"><img src="{{ .image}}" class="img-responsive" alt="{{.organisation}}"></a>
+                    <figcaption class="caption text-center">
+                        <h3>{{ .name }}
+                            <small>{{.organisation}}</small>
+                        </h3>
+                        <ul class="social-links">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </figcaption>
+                </figure>
+            </div>
+            {{ end }}
+            <!-- /.col-sm-6 -->
+        </div>
+
+    </div>
+    <!-- /.container -->
+</section>
+{{end}}
+{{end}}
+{{end}}
