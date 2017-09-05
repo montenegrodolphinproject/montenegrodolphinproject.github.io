@@ -1,0 +1,26 @@
+{{ if isset .Site.Params "partners" }}
+{{ if .Site.Params.partners.enable }}
+{{ if gt (len .Site.Data.partners) 0 }}
+<section id="section-partner" class="section-wrapper client-logo">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title">
+          <h1>{{ .Site.Params.partners.title}}</h1>
+          <p class="lead">{{ .Site.Params.partners.subtitle}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .Site.Data.partners }}
+        <div class="col-sm col-xs-6 section-margin">
+            <a href="{{ .url }}"><img src="{{ .logo }}" class=
+            "img-fluid" alt="{{ .name }}"></a>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}

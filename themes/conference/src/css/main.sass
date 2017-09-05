@@ -1,0 +1,372 @@
+@import "utilities/_colors.sass";
+@import "components/_jumbotron.sass";
+@import "components/_button.sass";
+@import "components/_navigation.sass";
+
+/*
+ *Template Name: finadvisor
+ *Description: HTML5 / CSS3 One Page
+ *Version: 1.0
+ *Author: uiCookies.com
+
+/*------------------------------------------------------------------
+ *[Table of contents]
+ *
+ *1. Body
+ *    2. Global Typography
+ *    3. Section Background / .gray-bg / .white-bg
+ *	4. Header /
+ *	    4.1. .top-bar
+ *		4.2. Navigation / .navbar
+ *	5. Hero Slider / .hero-slide
+ *	6. Services / .services
+ *	7. About Us / .about-us
+ *	8. Testimonial / .testimonialOne
+ *	9. Team / .team
+ *	10. Pricing Table / .pricing-section
+ *	11. Client Logo / .client-logo
+ *	12. Contact Section
+ *	    12.1. #googleMap
+ *	    12.2. Contact Form
+ *	13. Footer / .footer
+ *	14. Preloader / #preloader
+ *
+ *
+ *# [Color codes]
+ *
+ *# Body  (text): #888
+ *# Heading Color #0E1555
+ *# Theme Color (link color) #FD367E
+ *# Mid grey (sub header) #666666
+ *
+ *
+ *
+ *HEADING: 49616e
+ *Theme: BAB972
+ *
+ *# -------------------------------------------------------------------
+
+body
+  font-family: 'Roboto', sans-serif
+  font-size: 17px
+  line-height: 1.7em
+  color: $textColor
+  font-weight: 100
+  background: #fff
+  border: 10px solid #fff
+
+
+/* --------------------------------------
+ * Global Typography
+ *------------------------------------------
+
+h1, h2, h3, h4, h5, h6
+  margin: 0 0 15px
+  color: $headingColor
+
+h1
+  font-size: 36px
+  line-height: 1.2em
+  font-weight: 700
+
+h2
+  font-size: 30px
+  line-height: 1.5em
+  font-weight: 400
+
+h3
+  font-size: 24px
+  line-height: 1.5em
+  font-weight: 300
+
+h4
+  font-size: 18px
+  line-height: 1.5em
+  font-weight: 300
+
+h5
+  font-size: 16px
+  line-height: 1.5em
+  font-weight: 500
+
+h6
+  font-size: 15px
+  line-height: 24px
+
+/* --------------------------------------
+ * LINK STYLE
+ *------------------------------------------
+
+a
+  color: #bab972
+  text-decoration: none
+  -webkit-transition: all 0.3s ease 0s
+  -moz-transition: all 0.3s ease 0s
+  -o-transition: all 0.3s ease 0s
+  transition: all 0.3s ease 0s
+  text-decoration: none
+  outline: none
+  &:active, &:focus, &:active
+    text-decoration: none
+    outline: none
+  &:hover, &:focus
+    text-decoration: none
+    color: #999999
+
+p
+  margin-bottom: 20px
+  &.lead
+    font-size: 19px
+    line-height: 1.7em
+
+ul
+  margin: 0
+  padding: 0
+  list-style: none
+
+/* --------------------
+ * Section Background
+ * -------------------
+
+.gray-bg
+  background-color: #f0f1f3
+  border-top: 1px solid #eeeeee
+  border-bottom: 1px solid #eeeeee
+
+.white-bg
+  background-color: #ffffff
+
+/* --------------------
+ *  main Wrapper
+ * -------------------
+
+#main-wrapper
+  background: #ffffff
+  overflow: hidden
+
+/*-----------------------------
+ * NAVIGATION & HEADER STYLE
+ *-------------------------------
+
+.header
+  position: absolute
+  left: 15px
+  right: 15px
+  top: 40px
+  z-index: 9
+
+/*---------------------------
+ * Section Wrapper
+ *---------------------------
+
+.section-wrapper
+  padding: 100px 0
+  &:nth-child(even)
+    background-color: #f0f1f3
+    border-top: 1px solid #eeeeee
+    border-bottom: 1px solid #eeeeee
+
+/*---------------------------
+ * Section Title
+ *---------------------------
+
+.section-title
+  margin-bottom: 60px
+  text-align: center
+  p
+    color: #888888
+
+/* ----------------------------------------------
+ * About Event
+ *-----------------------------------------------
+/*.about-event .lead {
+ *  font-size: 19px;
+ *  line-height: 1.7em;
+ *}
+
+.about-event address
+  font-size: 15px
+  color: #888888
+  line-height: 1.8em
+  strong
+    color: #353e55
+
+/* ----------------------------------------------
+ * Team Section
+ *-----------------------------------------------
+
+.team .thumbnail
+  padding: 0
+  line-height: 22px
+  background-color: transparent
+  border: 0
+  margin-bottom: 30px
+  img
+    width: 100%
+  .caption
+    padding: 10px
+  h3
+    font-size: 16px
+    font-weight: bold
+    margin: 0 40px
+    text-transform: uppercase
+    padding: 10px 0
+    small
+      font-size: 14px
+      color: #888
+      display: block
+      font-weight: normal
+
+@media (max-width: 767px)
+  .team .thumbnail
+    margin-bottom: 30px
+
+/* --------------------------
+ * Agenda
+ *---------------------------
+
+.section-ajenda .session
+  padding: 15px 0
+  border-left: 1px solid #eeeeee
+  margin-bottom: 40px
+  time
+    padding: 5px 25px 15px
+    border-bottom: 1px solid #eeeeee
+    display: inline-block
+  h2
+    margin: 20px 0 0 20px
+  h3
+    margin: 20px 0 20px 20px
+    font-size: 20px
+    text-transform: uppercase
+    span
+      font-size: 14px
+      display: block
+      line-height: 1
+
+/* --------------------------
+ * Pricing Table
+ *---------------------------
+
+.pricing-section
+  .pricing-table-default
+    border: 1px solid #f1f1f1
+    background: #ffffff
+    padding-bottom: 40px
+  .pricing-head
+    h3
+      font-size: 15px
+      font-weight: bold
+      text-transform: uppercase
+      color: #ffffff
+      padding: 14px 40px
+      margin: 0
+      background-color: #49616e
+    .price
+      display: block
+      font-size: 60px
+      line-height: 60px
+      font-weight: bold
+      padding: 43px 0 0
+      sup
+        font-size: 24px
+        font-weight: bold
+        vertical-align: super
+        top: 0
+  .pricing-detail
+    margin: 0 50px 25px 50px
+    p
+      margin: 0
+  .pricing-list li
+    display: block
+    padding: 8px 0
+    i
+      margin-right: 17px
+    &:first-child
+      padding-top: 25px
+    &:last-child
+      padding: 12px 0 0
+  .pricing-detail .pink-i li
+    position: relative
+
+@media (max-width: 766px)
+  .pricing-section .pricing-table-default
+    margin-bottom: 30px
+
+/*pricing list
+
+/* --------------------------
+ * Client Logo
+ *---------------------------
+
+.client-logo a
+  img
+    width: 100%
+    opacity: 1
+    -webkit-transition: all 0.8s ease 0s
+    -moz-transition: all 0.8s ease 0s
+    -o-transition: all 0.8s ease 0s
+    transition: all 0.8s ease 0s
+  &:hover img
+    opacity: .5
+
+@media (max-width: 992px)
+  .client-logo .section-margin
+    margin-bottom: 30px
+
+/* ------------------
+ * Google Map
+ * ------------------
+
+#googleMap
+  height: 320px
+  border: 5px solid #ffffff
+  margin-bottom: 100px
+
+/*-------------------
+ * Form Style
+ *-------------------
+
+.form-control
+  height: 46px
+  padding: 0 20px
+  font-size: 14px
+  line-height: 46px
+  color: #969595
+  border: 1px solid #f1f1f1
+  border-radius: 0
+  box-shadow: none
+  &.input-lg
+    height: 60px
+    padding: 0 20px
+    font-size: 18px
+    line-height: 60px
+    color: #969595
+    border: 1px solid #f1f1f1
+    border-radius: 0
+    box-shadow: none
+    min-width: 400px
+  &:focus, &:active
+    box-shadow: none
+    border-color: #bab972
+
+@media (max-width: 600px)
+  .form-control.input-lg
+    min-width: auto
+    display: block
+
+/* --------------------------------------------
+ *   Footer
+ *----------------------------------------------
+
+/* Copyright
+
+.footer
+  padding: 0 
+  .copyright-section
+    font-size: 13px
+    color: #888888
+    padding: 30px 0
+  .copytext
+    font-weight: 400
+    display: block

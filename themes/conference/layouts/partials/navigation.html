@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-md main-menu" role="navigation" style="background-color: #fff;">
+<div class="container">
+  <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}img/logo2.png" alt="{{ .Site.Title }}"></a>
+
+  <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#nav-main-navigation" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  {{ if .Site.Menus.main }}
+    <div class="collapse navbar-collapse justify-content-end" id="nav-main-navigation">
+      <ul class="navbar-nav ">
+        {{ range .Site.Menus.pages }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .URL }}">{{ .Name }}
+              </a>
+          </li>
+        {{ end }}
+        {{ range .Site.Menus.main }}
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="{{ .URL }}">{{ .Name }}</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  {{end}}
+</div>
+</nav>

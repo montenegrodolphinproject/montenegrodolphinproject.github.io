@@ -1,0 +1,36 @@
+<section id="section-intro" class="section-wrapper about-event">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h1>Call for Speakers</h2>
+        <p class="lead">
+          Interested in speaking at the DMAD cetaceans conference 2018.
+        </p>
+        <p class="lead">
+            Distinctively benchmark client-focused opportunities vis-a-vis 24/365 relationships. Progressively revolutionize equity invested synergy whereas emerging web services.
+        </p>
+        <h2>Speaker requirements</h2>
+        <ul>
+          <li>Speakers must adhere 100% to our "NO COMMERCIALISM" Policy. </li>
+          <li>Speakers must share their information in an educational,
+          non-commercial and non-self-promotional manner.</li>
+          <li>Speakers must present new concepts and new ideas, not available
+          from any other source.</li>
+          <li>Speakers must provide session description and photo for the conference Web site.</li>
+        </ul>
+      </div>
+      <div class="col-md-4 gray-bg">
+        {{ if .Site.Params.acceptAbstracts }}
+          <h2>{{ .Site.Params.form.title }}</h2>
+          {{ partial "widgets/submission-form.html" . }}
+        {{ else }}
+          <address>
+            {{ .Site.Params.address | safeHTML}}
+            <abbr title="Phone">P:</abbr> (123) 456-7890
+          </address>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- .about-event -->
