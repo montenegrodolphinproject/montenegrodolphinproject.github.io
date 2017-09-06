@@ -7,12 +7,12 @@
   </url>
   
   <url>
-    <loc>http://conference.montenegrodolphinproject.org/categories/</loc>
-    <priority>0</priority>
+    <loc>http://conference.montenegrodolphinproject.org/contact/</loc>
   </url>
   
   <url>
-    <loc>http://conference.montenegrodolphinproject.org/contact/</loc>
+    <loc>http://conference.montenegrodolphinproject.org/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>

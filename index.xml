@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Developing Transboundary Conservation Network from Mountains to Deep Seas</title>
+    <title>From Mountains to Deep Seas</title>
     <link>http://conference.montenegrodolphinproject.org/</link>
-    <description>Recent content on Developing Transboundary Conservation Network from Mountains to Deep Seas</description>
+    <description>Recent content on From Mountains to Deep Seas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright (c) 2017, DMAD; all rights reserved.</copyright>
@@ -22,7 +22,7 @@ x</description>
     </item>
     
     <item>
-      <title>Contact</title>
+      <title>Abstract</title>
       <link>http://conference.montenegrodolphinproject.org/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
