@@ -1,6 +1,7 @@
 +++
 title = "Information"
 subtitle = "Dedicated to everyone who loves and writes CSS: On May 5 2017, CSSconf EU will gather the international CSS community in Berlin, Germany. This is your chance to meet top-notch engineers & web designers, world-class speakers, and CSS-loving people at this one-day, one-track conference."
+banner = "img/flat-banner-bg2.jpg"
 +++
 
 
