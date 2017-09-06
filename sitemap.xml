@@ -3,34 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://conference.montenegrodolphinproject.io/livestream/</loc>
+    <loc>http://conference.montenegrodolphinproject.org/livestream/</loc>
   </url>
   
   <url>
-    <loc>http://conference.montenegrodolphinproject.io/categories/</loc>
+    <loc>http://conference.montenegrodolphinproject.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://conference.montenegrodolphinproject.io/contact/</loc>
+    <loc>http://conference.montenegrodolphinproject.org/contact/</loc>
   </url>
   
   <url>
-    <loc>http://conference.montenegrodolphinproject.io/</loc>
+    <loc>http://conference.montenegrodolphinproject.org/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://conference.montenegrodolphinproject.io/information/</loc>
+    <loc>http://conference.montenegrodolphinproject.org/information/</loc>
   </url>
   
   <url>
-    <loc>http://conference.montenegrodolphinproject.io/tags/</loc>
+    <loc>http://conference.montenegrodolphinproject.org/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://conference.montenegrodolphinproject.io/thank-you/</loc>
+    <loc>http://conference.montenegrodolphinproject.org/thank-you/</loc>
   </url>
   
 </urlset>
