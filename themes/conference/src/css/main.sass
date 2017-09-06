@@ -3,49 +3,6 @@
 @import "components/_button.sass";
 @import "components/_navigation.sass";
 
-/*
- *Template Name: finadvisor
- *Description: HTML5 / CSS3 One Page
- *Version: 1.0
- *Author: uiCookies.com
-
-/*------------------------------------------------------------------
- *[Table of contents]
- *
- *1. Body
- *    2. Global Typography
- *    3. Section Background / .gray-bg / .white-bg
- *	4. Header /
- *	    4.1. .top-bar
- *		4.2. Navigation / .navbar
- *	5. Hero Slider / .hero-slide
- *	6. Services / .services
- *	7. About Us / .about-us
- *	8. Testimonial / .testimonialOne
- *	9. Team / .team
- *	10. Pricing Table / .pricing-section
- *	11. Client Logo / .client-logo
- *	12. Contact Section
- *	    12.1. #googleMap
- *	    12.2. Contact Form
- *	13. Footer / .footer
- *	14. Preloader / #preloader
- *
- *
- *# [Color codes]
- *
- *# Body  (text): #888
- *# Heading Color #0E1555
- *# Theme Color (link color) #FD367E
- *# Mid grey (sub header) #666666
- *
- *
- *
- *HEADING: 49616e
- *Theme: BAB972
- *
- *# -------------------------------------------------------------------
-
 body
   font-family: 'Roboto', sans-serif
   font-size: 17px
@@ -98,7 +55,7 @@ h6
  *------------------------------------------
 
 a
-  color: #bab972
+  color: $themeColor
   text-decoration: none
   -webkit-transition: all 0.3s ease 0s
   -moz-transition: all 0.3s ease 0s
@@ -119,10 +76,6 @@ p
     font-size: 19px
     line-height: 1.7em
 
-ul
-  margin: 0
-  padding: 0
-  list-style: none
 
 /* --------------------
  * Section Background
@@ -143,6 +96,8 @@ ul
 #main-wrapper
   background: #ffffff
   overflow: hidden
+  .fixed &
+    margin-top: 70px;
 
 /*-----------------------------
  * NAVIGATION & HEADER STYLE
@@ -165,6 +120,9 @@ ul
     background-color: #f0f1f3
     border-top: 1px solid #eeeeee
     border-bottom: 1px solid #eeeeee
+
+.form-wrapper
+  padding: 10px 0;
 
 /*---------------------------
  * Section Title
@@ -245,57 +203,6 @@ ul
       line-height: 1
 
 /* --------------------------
- * Pricing Table
- *---------------------------
-
-.pricing-section
-  .pricing-table-default
-    border: 1px solid #f1f1f1
-    background: #ffffff
-    padding-bottom: 40px
-  .pricing-head
-    h3
-      font-size: 15px
-      font-weight: bold
-      text-transform: uppercase
-      color: #ffffff
-      padding: 14px 40px
-      margin: 0
-      background-color: #49616e
-    .price
-      display: block
-      font-size: 60px
-      line-height: 60px
-      font-weight: bold
-      padding: 43px 0 0
-      sup
-        font-size: 24px
-        font-weight: bold
-        vertical-align: super
-        top: 0
-  .pricing-detail
-    margin: 0 50px 25px 50px
-    p
-      margin: 0
-  .pricing-list li
-    display: block
-    padding: 8px 0
-    i
-      margin-right: 17px
-    &:first-child
-      padding-top: 25px
-    &:last-child
-      padding: 12px 0 0
-  .pricing-detail .pink-i li
-    position: relative
-
-@media (max-width: 766px)
-  .pricing-section .pricing-table-default
-    margin-bottom: 30px
-
-/*pricing list
-
-/* --------------------------
  * Client Logo
  *---------------------------
 
@@ -362,7 +269,7 @@ ul
 /* Copyright
 
 .footer
-  padding: 0 
+  padding: 0
   .copyright-section
     font-size: 13px
     color: #888888

@@ -17,6 +17,9 @@ function handleScroll(position) {
 
 export default {
   init() {
+    if (document.body.classList.contains('fixed')) {
+      return;
+    }
     window.addEventListener('scroll', ev => {
       lastKnownScrollPosition = window.scrollY;
       if (!ticking) {

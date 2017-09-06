@@ -10,7 +10,6 @@ theme = "conference"
 enableRobotsTXT = true
 publishDir= "docs"
 
-
 [params]
   copyright= "Copyright (c) 2017, DMAD; all rights reserved."
   latitude = "41.9192077"
@@ -45,13 +44,16 @@ publishDir= "docs"
   enable = true
   title= "Speakers"
 
+[params.schedule]
+  enable = false
+
 [params.cta]
   name = "Speak at the conference"
   url  = "/#section-intro"
   scroll = true
 
 [params.livestream]
-  enable = true
+  enable = false
   livestream = "GKaSpZbCDZw"
 
 
@@ -62,11 +64,6 @@ publishDir= "docs"
   name = "Speakers"
   url  = "/#section-speaker"
   weight = 2
-
-[[menu.main]]
-  name = "Agenda"
-  url  = "/#section-schedule"
-  weight = 3
 
 [[menu.main]]
   name = "Partners"

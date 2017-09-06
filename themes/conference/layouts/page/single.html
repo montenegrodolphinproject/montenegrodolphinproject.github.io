@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ $.Site.LanguageCode | default "en" }}">
 
   {{ block "head" . }}{{ partial "head.html" .}}{{ end }}
-  <body>
+  <body class="fixed {{ with getenv "HUGO_ENV" }}{{ . }}{{ end }}">
 
-    <div id="all">
-
+    <div id="main-wrapper" class="content">
         <header>
-
           {{ partial "navigation.html" . }}
-
         </header>
 
         {{ partial "pagehead.html" . }}
