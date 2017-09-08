@@ -6052,8 +6052,6 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     min-height: auto; }
     .jumbotron .content p.lead {
       font-size: 15px; } }
-.sticky .jumbotron-fluid {
-  margin-top: 118px; }
 /*Button Style */
 .btn {
   padding: 10px 30px;
@@ -6151,7 +6149,7 @@ a:hover, a:focus {
   background: #ffffff;
   overflow: hidden; }
 .fixed #main-wrapper {
-    margin-top: 70px; }
+    margin-top: 60px; }
 /*-----------------------------
  * NAVIGATION & HEADER STYLE
  *------------------------------- */
