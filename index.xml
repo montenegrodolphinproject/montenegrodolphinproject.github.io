@@ -23,15 +23,14 @@ x</description>
     
     <item>
       <title>Abstract</title>
-      <link>http://conference.montenegrodolphinproject.org/contact/</link>
+      <link>http://conference.montenegrodolphinproject.org/abstract/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://conference.montenegrodolphinproject.org/contact/</guid>
+      <guid>http://conference.montenegrodolphinproject.org/abstract/</guid>
       <description>Instructions on Submitting Abstracts Deadline for submission of abstracts: 1 November 2017 (23:00 GMT)
-Only one presentation will be accepted per presenting author First authors must be registered by the late registration deadline (1 December 2017) Short talks and posters can be presented by the co-authors
-Abstract title: Provide the title of the abstract, no more than 20 words.
-Authors’ names: Provide the authors’ names, surnames and Institutes/affiliations.
-Abstract: Abstract should be one continuous paragraph.</description>
+Only one abstract per author can be submitted, in one of three different formats: long-talk, short-talk and scientific poster. Long-talks must be presented by the first author, while short talks and scientific posters can be presented by the co-authors.
+Upon submitting you will be asked to attach a document containing the following:
+Abstract title: no more than 20 words.</description>
     </item>
     
     <item>
@@ -40,7 +39,7 @@ Abstract: Abstract should be one continuous paragraph.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://conference.montenegrodolphinproject.org/information/</guid>
-      <description>Conference Objective  Developing a cross boardary online network for data standarisation in the East Adriatic There are several projects conducted in the Adriatic but few have solid ground breaking outcomes Nature conservation is only possible with transboundary protection/conservation/management measures, spesifically if the target animals have a long migration routes. Its already proven that inter connnected cross boardary protected habitats are the strongest step on both species and ecosystem level protection.</description>
+      <description>Conference mission  Effective nature conservation is only possible with transboundary research efforts, particularly if the target animals rely on long migration routes for their survival. There are over 100 projects in the Balkans and Turkey supported by Rufford Small Grants, many of which have the same target species and aims. However, with the differences in their methodology and scope, the potential to reach a common goal and create transboundary conservation measures is diminished.</description>
     </item>
     
     <item>
@@ -49,10 +48,9 @@ Abstract: Abstract should be one continuous paragraph.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://conference.montenegrodolphinproject.org/thank-you/</guid>
-      <description>Thank you for your submission. Thank you for your abstract submission to 27th Rufford Conference in Montenegro. Your abstract will be reviewed by 2 independent researchers. The decision of your abstract will be emailed to you before December 1th, 2017. If you do not receive an email from us by that date, please notify us.
-Looking forward to seeing you in Montenegro
-Kind regards, Dr. Aylin Akkaya Bas
-Back to the homepage</description>
+      <description>Thank you for your submission. Thank you for your abstract submission to the 27th Rufford Conference in Montenegro. Your abstract will be reviewed by two independent researchers. The approval of your abstract will be emailed to you before December 1st, 2017. If you do not receive an email from us by that date, please notify us.
+Looking forward to seeing you in Montenegro!
+Kind regards, Dr. Aylin Akkaya Bas</description>
     </item>
     
   </channel>
