@@ -6021,7 +6021,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .jumbotron.jumbotron-full .content {
     color: #ffffff;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 0;
     right: 0;
     height: 30%;
@@ -6037,16 +6037,20 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .jumbotron.jumbotron-full .content h2 {
       color: #ffffff;
       font-weight: bold; }
-.jumbotron.jumbotron-full .content p.lead {
-      font-size: 24px;
-      line-height: 1.5em;
-      color: rgba(255, 255, 255, .7); }
 .jumbotron.jumbotron-full .content .event-date {
       text-transform: uppercase;
       font-size: 24px;
       margin-bottom: 40px; }
 .jumbotron.jumbotron-full .btn {
     margin-top: 40px; }
+.jumbotron p.lead {
+  font-size: 24px;
+  line-height: 1.5em;
+  color: rgba(255, 255, 255, .7); }
+.jumbotron p.lead.accent {
+    max-width: 650px;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 5px 10px; }
 @media (max-width: 600px) {
   .jumbotron .content {
     min-height: auto; }
